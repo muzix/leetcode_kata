@@ -41,7 +41,6 @@ extension LC {
           isCarry = true
         case ("1", "0"), ("0", "1"):
           finalSum = (isCarry ? "0" : "1") + finalSum
-          isCarry = isCarry ? true : false
         default:
           fatalError()
         }
